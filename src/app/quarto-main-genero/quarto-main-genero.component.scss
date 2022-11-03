@@ -1,0 +1,79 @@
+.titulo_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+}
+
+.cadastra_botao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.salvar{
+    width: 120px;
+    height: 40px;
+    background-color: #F6511D;
+    color: #ffff;
+    border: #F6511D;
+    margin-top: 20px;
+}
+
+.salvar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+}
+
+
+p {
+    width: 150px;
+}
+
+.primeiro_genero,
+.segundo_genero,
+.terceiro_genero{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.primeiro_segundo_terceiro{
+    margin-top: 40px;
+}
+
+.excluir{
+    width: 125px;
+    height: 35px;
+    background-color:#41B8D2;;
+    border: 2px solid #41B8D2;;
+    border-radius: 20px;
+}
+
+.excluir:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+}
+
+
+.editar{
+    width: 125px;
+    height: 35px;
+    background-color: #F6511D;
+    border: 2px solid #F6511D;
+    border-radius: 20px;
+}
+
+.editar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+}

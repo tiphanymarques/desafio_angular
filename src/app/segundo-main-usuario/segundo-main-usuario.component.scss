@@ -1,0 +1,80 @@
+
+main{
+    margin: 100px;
+}
+
+
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input {
+    width: 300px;
+    height: 40px;
+}
+
+.cadastrar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+}
+
+.cadastrar {
+    width: 120px;
+    height: 40px;
+    background-color: #F6511D;
+    color: #ffff;
+    border: #F6511D;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.paulo,
+.marcos,
+.laura {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    width: 150px;
+}
+
+.editar {
+    width: 125px;
+    height: 35px;
+    background-color: #F6511D;
+    border: 2px solid #F6511D;
+    border-radius: 20px;
+}
+
+.editar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+}
+
+.excluir{
+    width: 125px;
+    height: 35px;
+    background-color:#41B8D2;;
+    border: 2px solid #41B8D2;;
+    border-radius: 20px;
+}
+
+.excluir:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+}
