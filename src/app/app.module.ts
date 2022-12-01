@@ -6,9 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PrimeiroMainComponent } from './primeiro-main/primeiro-main.component';
-import { SegundoMainUsuarioComponent } from './segundo-main-usuario/segundo-main-usuario.component';
+import { SegundoMainUsuarioComponent} from './segundo-main-usuario/segundo-main-usuario.component';
 import { TerceiroMainFilmesComponent } from './terceiro-main-filmes/terceiro-main-filmes.component';
 import { QuartoMainGeneroComponent } from './quarto-main-genero/quarto-main-genero.component';
+import { HttpClientModule }  from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +23,18 @@ import { QuartoMainGeneroComponent } from './quarto-main-genero/quarto-main-gene
     PrimeiroMainComponent,
     SegundoMainUsuarioComponent,
     TerceiroMainFilmesComponent,
-    QuartoMainGeneroComponent
+    QuartoMainGeneroComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    
+   
+
   ],
   providers: [],
   bootstrap: [AppComponent]

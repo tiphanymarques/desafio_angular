@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { SegundoMainUsuarioComponent } from './segundo-main-usuario.component';
 
 describe('SegundoMainUsuarioComponent', () => {
@@ -21,3 +20,4 @@ describe('SegundoMainUsuarioComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

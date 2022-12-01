@@ -1,0 +1,40 @@
+{
+  "cadastro": [
+    {
+      "id": 1,
+      "nome": "tiphany",
+      "email": "tiphany@marques",
+      "telefone": "837869379"
+    },
+    {
+      "id": 2,
+      "nome": "tih",
+      "email": "tiphany@oliveira",
+      "telefone": "789264"
+    },
+    {
+      "id": 3,
+      "nome": "antonio",
+      "email": "antonio@silva",
+      "telefone": "72757169"
+    },
+    {
+      "id": 4,
+      "nome": "veronica",
+      "email": "veronica@brq",
+      "telefone": "2886469"
+    },
+    {
+      "id": 5,
+      "nome": "sofi",
+      "email": "sofi@brq",
+      "telefone": "892864"
+    },
+    {
+      "id": 6,
+      "nome": "tifi",
+      "email": "tifi@marques",
+      "telefone": "72892694889"
+    }
+  ]
+}

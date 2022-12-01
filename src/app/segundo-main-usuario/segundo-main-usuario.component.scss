@@ -38,12 +38,12 @@ input {
     margin-bottom: 55px;
 }
 
-.paulo,
-.marcos,
-.laura {
-    display: flex;
-    justify-content: space-around;
-}
+// .paulo,
+// .marcos,
+// .laura {
+//     display: flex;
+//     justify-content: space-around;
+// }
 
 p {
     width: 150px;
@@ -77,4 +77,8 @@ p {
     background-color: white;
     color: black;
     border:black solid 1px;
+}
+
+.usuario_lado_a_lado{
+    display: flex;
 }
